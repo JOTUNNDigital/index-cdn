@@ -1,8 +1,21 @@
 <!index feature>
+<meta name="author" content="JOTUNN">
+
+<link rel="stylesheet" href="@[filesystem.assets]/css/test.css">
+
+<style>
+	 app-test
+	 {
+		background: red;
+
+		display: block;
+		
+		height: 100%;
+		width: 100%;
+	 }
+</style>
 
 <script>
-	"use strict";
-
 	if(App && typeof App == "object")
 	{
 		App.test = function()
@@ -11,3 +24,7 @@
 		};
 	}
 </script>
+
+<template data-name>
+	<app-test></app-test>
+</template>
